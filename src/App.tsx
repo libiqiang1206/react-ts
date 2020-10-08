@@ -1,18 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
+// import React, { FC } from 'react';
+import React, { FC } from 'react';
+// import { Button } from 'antd';
+// import { Layout } from 'antd';
+
+// const { Header, Footer, Sider, Content } = Layout;
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-      </header>
-    </div>
-  );
-}
+const App: FC = () => (
+  <div className="App">
+    <header className="App-header">
+    </header>
+  </div>
+);
 
 export default App;
